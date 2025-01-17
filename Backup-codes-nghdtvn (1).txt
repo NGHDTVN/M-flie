@@ -10,3 +10,10 @@ Giữ các mã dự phòng này ở nơi nào đó an toàn nhưng có thể l�
 * Bạn chỉ có thể sử dụng mỗi mã dự phòng một lần.
 * Cần thêm mã? Hãy truy cập https://g.co/2sv
 * Các mã này được tạo vào: 3 thg 9, 2024.
+
+local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
